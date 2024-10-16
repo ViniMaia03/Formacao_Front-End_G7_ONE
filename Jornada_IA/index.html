@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jornada</title>
+    <title> Jornada </title>
     <link rel="stylesheet" href="./global.css">
     <link rel="stylesheet" href="./index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,19 +17,20 @@
 </head>
 
 <body>
-    <div class="cabecalho__container">
+    <header class="cabecalho__container">
         <div class="cabecalho">
-            <a href="" class="cabecalho__logo">
-                <img class="cabecalho__logo--icone" alt="" src="./img/logoprovisriabranca-1@2x.png" />
+            <a href="#" class="cabecalho__logo" aria-label="Página inicial">
+                <img class="cabecalho__logo--icone" alt="Logo da Jornada" src="./img/logoprovisriabranca-1@2x.png" />
             </a>
-            <div class="cabecalho__navegacao">
-                <a class="cabecalho__navegacao--item" href="">Blog</a>
-                <a class="cabecalho__navegacao--item" href="">Pacotes de viagem</a>
-                <a class="cabecalho__navegacao--item" href="">Contato</a>
-            </div>
+            <nav class="cabecalho__navegacao" aria-label="Navegação principal">
+                <ul class="menu">
+                    <li><a class="cabecalho__navegacao--item" href="#" aria-label="Blog">Blog</a></li>
+                    <li><a class="cabecalho__navegacao--item" href="#" aria-label="Pacotes de viagem">Pacotes de viagem</a></li>
+                    <li><a class="cabecalho__navegacao--item" href="#" aria-label="Contato">Contato</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
-
+    </header>
     <div class="banner">
         <div class="banner__wrapper">
             <img class="banner__img" alt="" src="./img/maldivas@2x.png" />
