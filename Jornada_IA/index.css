@@ -99,6 +99,11 @@ img {
     flex-wrap: wrap;
 }
 
+.ofertas__card {
+    display: flex;
+    flex-direction: column;
+}
+
 .ofertas__cards--item {
     display: flex;
     padding: 24px 0px;
@@ -148,6 +153,7 @@ img {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin: 0;
 }
 
 .ofertas__card--preco {
