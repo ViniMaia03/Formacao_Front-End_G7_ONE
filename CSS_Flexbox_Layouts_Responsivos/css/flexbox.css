@@ -12,10 +12,31 @@
     display: none;
 }
 
+/* SEÇÃO SUPERIOR */
+
+.superior__secao__container {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    gap: 20px;
+    overflow: scroll;
+}
+
+/* RODAPÉ */
+
+.rodape__container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
 /* RESPONSIVIDADE */
 
 @media (min-width: 834px) {
     .cabecalho__pesquisar__item {
         display: block;
+    }
+
+    .rodape__container {
+        justify-content: space-between;
     }
 }
